@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Reto1</string>
+
+    <string-array name="cities">
+        <item> Cali</item>
+        <item> Medellin</item>
+        <item> Cartagena</item>
+        <item> Bogotá</item>
+    </string-array>
+</resources>

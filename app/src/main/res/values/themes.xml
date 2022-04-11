@@ -1,0 +1,34 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Reto1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blue_instagram</item>
+        <item name="colorPrimaryVariant">@color/red_instagram</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:buttonStyle">@style/btn_filled</item>
+    </style>
+    <style name="btn_filled" parent="Widget.AppCompat.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:color">@color/white</item>
+        <item name="background">@drawable/bg_btn_filled</item>
+    </style>
+    <style name="btn_outline" parent="Widget.AppCompat.Button">
+        <item name="textAllCaps">false</item>
+        <item name="android:padding">14dp</item>
+        <item name="background">@drawable/bg_btn_outline</item>
+    </style>
+
+
+</resources>
